@@ -91,3 +91,22 @@ font-size: 18px;
     margin-top: 10px;
     display: none;
 }
+@media only screen and (max-width: 420px) {
+    .col img{
+        width: 27px;
+        margin-right: 16px;
+    }
+    .search input{
+        border: 0;
+        outline: 0;
+        background: #ebfffc;
+        color: #555;
+        padding: 10px 25px;
+        height: 60px;
+        border-radius: 30px;
+        flex: 1;
+        margin-right: -51px;
+        font-size: 18px;
+        }
+
+  }
